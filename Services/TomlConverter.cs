@@ -45,7 +45,6 @@ namespace ConfigurationLanguage.Services
                     if (i > 0) result.AppendLine();
                     result.AppendLine($"[table_{i + 1}]");
                     var tableToml = Toml.FromModel(_tables[i]);
-                    // Убираем первую строку если она содержит название таблицы
                     var lines = tableToml.Split('\n');
                     result.AppendLine(string.Join("\n", lines));
                 }
@@ -108,4 +107,5 @@ namespace ConfigurationLanguage.Services
         }
     }
 }
+
 
