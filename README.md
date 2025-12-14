@@ -1,7 +1,7 @@
 # ConfigurationLanguageToml
-Приложение для конвертации в файл toml. Реализация включает парсер на ANTLR4, AST-модель и преобразование в TOML.
+Приложение на C# для конвертации в файл toml. Реализация включает парсер на ANTLR4, AST-модель и преобразование в TOML.
 
-Запуск приложения осуществляется благодаря ключу комнадной строки: dotnet run --convert --input C:\Program1\input2.conf --output C:\Program1\output.toml
+Запуск приложения осуществляется благодаря ключу комнадной строки: dotnet run --convert --input C:\Program\input.conf --output C:\Program\output.toml
 
 Возможности:
 1. Двоичные числа: 0b1010, 0B1101
