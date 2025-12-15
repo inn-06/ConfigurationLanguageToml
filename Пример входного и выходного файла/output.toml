@@ -1,0 +1,9 @@
+[table_1]
+host = "localhost"
+port = 200
+debug = "localhost"
+
+[table_2]
+host = "localhost"
+kontent = 1337
+debug = "localhost"
